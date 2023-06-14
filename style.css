@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root{
+    --color-primary-100: white;
+    --color-primary-400:hsl(212, 45%, 89%);
+    --color-accent-500:hsl(220, 15%, 55%);
+    --color-accent-800: hsl(218, 44%, 22%);
+
+    --default-font: 'Outfit', sans-serif;
+
+    --fs-300: 1rem;
+    --fs-500: 1.25rem; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: var(--default-font);
+    background-color: var(--color-primary-400);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 300px;
+    background-color: var(--color-primary-100);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 20px 75px -30px var(--color-accent-500);
+}
+
+.code{
+    background: url(/qr-code-component-main/qr-code-component-main/images/image-qr-code.png) no-repeat center center /cover;
+    height: 275px;
+    margin: auto;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.text-container{
+    text-align: center;
+}
+
+.text-container h2 {
+    font-size: var(--fs-500);
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.text-container p{
+    font-size: var(--fs-300);
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--color-accent-500);
+    margin-bottom: 30px;
+}
+
