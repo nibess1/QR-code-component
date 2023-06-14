@@ -37,7 +37,7 @@ body{
 }
 
 .code{
-    background: url(/qr-code-component-main/images/image-qr-code.png) no-repeat center center /cover;
+    background: url(/images/image-qr-code.png) no-repeat center center /cover;
     height: 275px;
     margin: auto;
     aspect-ratio: 1/1;
